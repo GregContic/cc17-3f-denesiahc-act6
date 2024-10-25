@@ -1,0 +1,1519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/white"
+		android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/thirty_days_improvement"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dp"
+
+		android:text="Master Guitar in 30 days"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.104"
+		app:layout_constraintStart_toStartOf="parent"
+		android:layout_marginStart="5dp"
+		android:textSize="20dp"
+		android:fontFamily="@font/Super_Kinds"
+		app:layout_constraintTop_toTopOf="parent">
+	</TextView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+
+			<FrameLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day One"
+					android:fontfamily="@font/egocentricity" />
+
+				<ImageView
+					android:id="@+id/day_one_image"
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/person_playing_guitar"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:id="@+id/day_one_paragraph"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_one_paragraph"
+					android:fontfamily="@font/Arima-SemiBold" />
+
+			</FrameLayout>
+
+	</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_two"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Two" />
+
+				<ImageView
+					android:id="@+id/day_two_image"
+					android:layout_width="329dp"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/kurt_cobain_nirvana_credit_kmazur_wireimage_getty_images_2000x1500"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:id="@+id/day_two_paragraph"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_two_paragraph"
+					android:fontfamily="@font/roboto_bold" />
+
+			</FrameLayout>
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_three"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Three" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/steve_vai_credit_larry_dimarzio_hero_2560x1625"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:id="@+id/day_three_paragraph"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_three_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_four"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Four" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/a_minor_chord_on_guitar_with_barre"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:id="@+id/day_four_paragraph"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_four_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_five"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:id="@+id/day_five_text"
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Five" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/e_major_scale_guitar_chord_tabs"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:id="@+id/day_Five_paragraph"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_five_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_Six"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Six" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/barre_chords_thumbnail"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:id="@+id/day_Six_paragraph"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_six_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_Seven"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Seven" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/freudian"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:id="@+id/day_Seven_paragraph"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_seven_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_Eight"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Eight" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/rushe"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:id="@+id/day_Eight_paragraph"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_eight_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_Nine"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Nine" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/blondcover_final"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:id="@+id/day_Nine_paragraph"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_nine_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_Ten"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Ten" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/right_hand_fingering_for_fingerstyle__p_i_ma_pattern_good"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:id="@+id/day_Ten_paragraph"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_ten_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_Eleven"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Eleven" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/guitar_scale_lengths"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:id="@+id/day_Eleven_paragraph"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_eleven_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_Twelve"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Twelve" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/yellowpee"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_twelve_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_Thirteen"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Thirteen" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/pexels_brent_keane_181485_1751731"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_thirteen_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_Fourteen"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Fourteen" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/thonker"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_fourteen_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_fifteen"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Fifteen" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/carlsed"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_fifteen_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_sixteen"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Sixteen" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/eagles_hotel_california_vinyl_cover_art"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_sixteen_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_seventeen"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Seventeen" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/pentatonic_scale_guitar"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_seventeen_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_eighteen"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Eighteen" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/jordanguitar"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_eighteen_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_nineteen"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Nineteen" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/lettem"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_nineteen_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_twenty"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Twenty" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/lethimcook"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_twenty_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_twenty_one"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Twenty One" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/recordself"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_twenty_one_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_twenty_two"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Twenty Two" />
+
+				<ImageView
+					android:layout_width="333dp"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/images"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_twenty_two_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_twenty_three"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Twenty Three" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/attachment_dj_khalid"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_twenty_three_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_twenty_four"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Twenty Four" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/keegan_houser_q_t4scn8c4_unsplash_1024x680"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_twenty_four_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_twenty_five"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Twenty Five" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/rushe"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_twenty_five_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Twenty Six" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/kurt_cobain_nirvana_credit_kmazur_wireimage_getty_images_2000x1500"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_twenty_six_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_twenty_seven"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Twenty Seven" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/kurt_cobain_nirvana_credit_kmazur_wireimage_getty_images_2000x1500"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_twenty_seven_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_twenty_eight"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Twenty Eight" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/kurt_cobain_nirvana_credit_kmazur_wireimage_getty_images_2000x1500"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_twenty_eight_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_twenty_nine"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Twenty Nine" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/kurt_cobain_nirvana_credit_kmazur_wireimage_getty_images_2000x1500"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_twenty_nine_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			android:layout_marginTop="16dp"
+			android:layout_marginHorizontal="16dp"
+			app:cardCornerRadius="12dp"
+			app:cardElevation="4dp">
+			<FrameLayout
+				android:id="@+id/day_thirty"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@drawable/background_placeholder"
+				android:orientation="vertical"
+				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
+
+				<TextView
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="10dp"
+					android:text="Day Thirty" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="220dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginRight="20dp"
+					android:src="@drawable/kurt_cobain_nirvana_credit_kmazur_wireimage_getty_images_2000x1500"
+
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_marginTop="275dp"
+					android:layout_marginBottom="15dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginRight="15dp"
+					android:text="@string/day_thirty_paragraph" />
+
+			</FrameLayout>
+
+
+		</androidx.cardview.widget.CardView>
+
+	</LinearLayout>
+
+</ScrollView>

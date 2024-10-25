@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">30 Days Application</string>
+	<string name="day_one_paragraph">Learn basic guitar chords such as C, G, D, and A. Afterward, strum a simple song using these chords.
+		A great starting song to practice is Take me home, country roads by John Denver.
+	</string>
+	<string name="day_two_paragraph">Try to focus on memorizing the basic chords additionally, try on switching between the chords learned by playing Polly by Nirvana. Additionally,
+		you can also play Nothing Else Matters by Metallica.
+</string>
+	<string name="day_three_paragraph">Start learning guitar tabs. A great way to do so is playing the acoustic version of Sweden by C418.
+</string>
+	<string name="day_four_paragraph">Begin learning simple guitar bar chords. Try with E Major, E minor, A major, and A minor. </string>
+	<string name="day_five_paragraph">Pick up from what you learned yesterday by learning G Major, A Major and B Major. These are subset chords of E Major.</string>
+	<string name="day_six_paragraph">Use what you learned by playing Good Riddance (Time of Your Life) by Green Day, and Blitzkrieg Bop by Nirvana.</string>
+	<string name="day_seven_paragraph">Revert back to learning guitar tabs by playing Best Part by Daniel Caesar and H.E.R.. Most slow Rhythm and Blues utilize basic guitar tabs.</string>
+	<string name="day_eight_paragraph">Try to ball out playing the guitar by playing the acoustic version of Rush E. Practice until it sounds like Rush E.</string>
+	<string name="day_nine_paragraph">Pick a song that you really like and try to find a tutorial online on how to play it with a guitar. Expand your music taste by listening to Blonde by Frank Ocean.</string>
+	<string name="day_ten_paragraph">Begin on learning fingerpicking patterns. The standard fingerpicking is using your thumb to play the 6-4 strings, your index finger for the 3-string, your middle finger for the 2-string and your ring finger for the 1-string.</string>
+	<string name="day_eleven_paragraph">Study about the fundametals of a guitar, frets, strumming patterns, chord progressions, and the such.</string>
+	<string name="day_twelve_paragraph">Try to be different. Tune your guitar in a different way. Alternate tuning can help in understanding chord progressions. A song where alternate tuning applied is Yellow by Coldplay.</string>
+	<string name="day_thirteen_paragraph">Pick out your favorite songs and try improvising for fun. Deviate from the usual chords and strumming patterns of those songs and add your own spice onto it. </string>
+	<string name="day_fourteen_paragraph">Once again, pick out your favorite songs but this time try to play them without using guides or scripts. Memorizing the chords of songs help you familiarize with chords and strumming pattens.</string>
+	<string name="day_fifteen_paragraph">Self reflect on everything you learned so far. Play with yourself with the guitar and identify areas for improvement.</string>
+	<string name="day_sixteen_paragraph">Learn advanced guitar picking by playing the classic song Hotel California by Eagles. While youre at it go listen to the whole album.</string>
+	<string name="day_seventeen_paragraph">Learn more about guitar scales. Practice the pentatonic scales; practice them across the fretboard.</string>
+	<string name="day_eighteen_paragraph">Try writing your own simple song using the techniques you have learned. Go crazy, incorporate as many chords that you can.</string>
+	<string name="day_nineteen_paragraph">Work on transcribing melodies by ear by listening to songs blindly afterwhich, try to transcribe them and play them back on the guitar.</string>
+	<string name="day_twenty_paragraph">Once again try to make another original song using all of the things you have learned.</string>
+	<string name="day_twenty_one_paragraph">Record yourself playing your favorite song (preferrably a song you made yourself) and try to identify any flaws in the ways you are playing.</string>
+	<string name="day_twenty_two_paragraph">Find online musicians and try to jam with them. This way you can boost your confidence in playing the guitar.</string>
+	<string name="day_twenty_three_paragraph">Just play anything you want. At this point you should have already mastered the basics of guitar. Feel free to play anything you want.</string>
+	<string name="day_twenty_four_paragraph">Take a break and reflect on everything you have learned at this point. Take a breather. You earned it.</string>
+	<string name="day_twenty_five_paragraph">Try to play Rush E on the guitar again because why not? You should be able to make a resemblance on how its supposed to sound at this point.</string>
+	<string name="day_twenty_six_paragraph">Spend at least 3 hours of the day playing OPM songs. Be patriotic.</string>
+	<string name="day_twenty_seven_paragraph">- **Warm-up**: Finger stretching exercises (5 mins)</string>
+	<string name="day_twenty_eight_paragraph">- **Warm-up**: Finger stretching exercises (5 mins)</string>
+	<string name="day_twenty_nine_paragraph">- **Warm-up**: Finger stretching exercises (5 mins)</string>
+	<string name="day_thirty_paragraph">- **Warm-up**: Finger stretching exercises (5 mins)</string>
+	<string name="day_thirty_one_paragraph">- **Warm-up**: Finger stretching exercises (5 mins)</string>
+
+
+</resources>
