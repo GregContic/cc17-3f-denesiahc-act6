@@ -1300,7 +1300,7 @@
 					android:layout_marginLeft="20dp"
 					android:layout_marginTop="45dp"
 					android:layout_marginRight="20dp"
-					android:src="@drawable/kurt_cobain_nirvana_credit_kmazur_wireimage_getty_images_2000x1500"
+					android:src="@drawable/opmss"
 
 					app:layout_constraintTop_toTopOf="parent" />
 
@@ -1349,7 +1349,7 @@
 					android:layout_marginLeft="20dp"
 					android:layout_marginTop="45dp"
 					android:layout_marginRight="20dp"
-					android:src="@drawable/kurt_cobain_nirvana_credit_kmazur_wireimage_getty_images_2000x1500"
+					android:src="@drawable/imaheamp"
 
 					app:layout_constraintTop_toTopOf="parent" />
 
@@ -1398,7 +1398,7 @@
 					android:layout_marginLeft="20dp"
 					android:layout_marginTop="45dp"
 					android:layout_marginRight="20dp"
-					android:src="@drawable/kurt_cobain_nirvana_credit_kmazur_wireimage_getty_images_2000x1500"
+					android:src="@drawable/asdfasdfasdf"
 
 					app:layout_constraintTop_toTopOf="parent" />
 
@@ -1447,7 +1447,7 @@
 					android:layout_marginLeft="20dp"
 					android:layout_marginTop="45dp"
 					android:layout_marginRight="20dp"
-					android:src="@drawable/kurt_cobain_nirvana_credit_kmazur_wireimage_getty_images_2000x1500"
+					android:src="@drawable/blackbeard_black"
 
 					app:layout_constraintTop_toTopOf="parent" />
 
@@ -1470,6 +1470,7 @@
 			android:layout_height="wrap_content"
 			android:background="@color/white"
 			android:layout_marginTop="16dp"
+			android:layout_marginBottom="15dp"
 			android:layout_marginHorizontal="16dp"
 			app:cardCornerRadius="12dp"
 			app:cardElevation="4dp">
@@ -1496,7 +1497,7 @@
 					android:layout_marginLeft="20dp"
 					android:layout_marginTop="45dp"
 					android:layout_marginRight="20dp"
-					android:src="@drawable/kurt_cobain_nirvana_credit_kmazur_wireimage_getty_images_2000x1500"
+					android:src="@drawable/great_job_employee_1"
 
 					app:layout_constraintTop_toTopOf="parent" />
 
