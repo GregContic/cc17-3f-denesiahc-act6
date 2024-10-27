@@ -5,13 +5,11 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-	android:orientation="vertical">
+    tools:context=".MainActivity">
 
 	<LinearLayout
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:background="@color/white"
 		android:orientation="vertical">
 
 	<TextView
@@ -24,9 +22,10 @@
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintHorizontal_bias="0.104"
 		app:layout_constraintStart_toStartOf="parent"
-		android:layout_marginStart="5dp"
-		android:textSize="20dp"
-		android:fontFamily="@font/Super_Kinds"
+		android:layout_marginStart="15dp"
+		android:textSize="25sp"
+		android:textColor="#483D8B"
+		android:fontFamily="@font/MerriweatherBold"
 		app:layout_constraintTop_toTopOf="parent">
 	</TextView>
 
@@ -47,13 +46,12 @@
 				app:layout_constraintTop_toBottomOf="@+id/thirty_days_improvement">
 
 				<TextView
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
 					android:layout_marginTop="10dp"
-					android:text="Day One"
-					android:fontfamily="@font/egocentricity" />
+					android:text="Day One" />
 
 				<ImageView
 					android:id="@+id/day_one_image"
@@ -74,8 +72,9 @@
 					android:layout_marginBottom="15dp"
 					android:layout_marginLeft="15dp"
 					android:layout_marginRight="15dp"
-					android:text="@string/day_one_paragraph"
-					android:fontfamily="@font/Arima-SemiBold" />
+					android:text="@string/day_one_paragraph">
+
+				</TextView>
 
 			</FrameLayout>
 
@@ -99,7 +98,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -108,12 +107,12 @@
 
 				<ImageView
 					android:id="@+id/day_two_image"
-					android:layout_width="329dp"
+					android:layout_width="wrap_content"
 					android:layout_height="220dp"
 					android:layout_marginLeft="20dp"
 					android:layout_marginTop="45dp"
 					android:layout_marginRight="20dp"
-					android:src="@drawable/kurt_cobain_nirvana_credit_kmazur_wireimage_getty_images_2000x1500"
+					android:src="@drawable/kopain"
 
 					app:layout_constraintTop_toTopOf="parent" />
 
@@ -125,8 +124,7 @@
 					android:layout_marginBottom="15dp"
 					android:layout_marginLeft="15dp"
 					android:layout_marginRight="15dp"
-					android:text="@string/day_two_paragraph"
-					android:fontfamily="@font/roboto_bold" />
+					android:text="@string/day_two_paragraph"/>
 
 			</FrameLayout>
 
@@ -150,7 +148,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -200,7 +198,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -251,7 +249,7 @@
 				<TextView
 					android:id="@+id/day_five_text"
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -301,7 +299,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -351,7 +349,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -401,7 +399,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -451,7 +449,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -501,7 +499,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -551,7 +549,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -601,7 +599,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -650,7 +648,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -699,7 +697,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -748,7 +746,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -797,7 +795,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -846,7 +844,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -895,7 +893,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -944,7 +942,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -993,7 +991,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -1042,7 +1040,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -1091,7 +1089,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -1099,7 +1097,7 @@
 					android:text="Day Twenty Two" />
 
 				<ImageView
-					android:layout_width="333dp"
+					android:layout_width="wrap_content"
 					android:layout_height="220dp"
 					android:layout_marginLeft="20dp"
 					android:layout_marginTop="45dp"
@@ -1141,7 +1139,7 @@
 				<TextView
 
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -1190,7 +1188,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -1239,7 +1237,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -1287,7 +1285,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -1336,7 +1334,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -1385,7 +1383,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -1434,7 +1432,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
@@ -1484,7 +1482,7 @@
 
 				<TextView
 					android:textStyle="bold"
-					android:textSize="20dp"
+					android:textSize="20sp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginStart="10dp"
